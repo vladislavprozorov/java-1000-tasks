@@ -1,6 +1,8 @@
 # 1000 Java Programming Tasks — From Beginner to Advanced
 
+[![Compile Java](https://github.com/vladislavprozorov/java-1000-tasks/actions/workflows/compile-java.yml/badge.svg)](https://github.com/vladislavprozorov/java-1000-tasks/actions/workflows/compile-java.yml)  
 [Русская версия](README.ru.md) | [English](README.md)
+
 
 This list is organized roughly by difficulty: 1–300 Beginner, 301–700 Intermediate, 701–1000 Advanced.
 

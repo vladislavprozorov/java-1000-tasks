@@ -2,6 +2,8 @@
 
 [Русская версия](README.ru.md) | [English](README.md)
 
+[![Compile Java](https://github.com/vladislavprozorov/java-1000-tasks/actions/workflows/compile-java.yml/badge.svg)](https://github.com/vladislavprozorov/java-1000-tasks/actions/workflows/compile-java.yml)  
+
 Этот репозиторий содержит коллекцию из **1000 задач по Java**, расположенных от простого к продвинутому уровню.  
 Каждая задача имеет собственную папку с решением и пояснением.
 
@@ -27,7 +29,7 @@
 ```
 java-1000-tasks/
 │
-├── 001-hello-world/
+├── 001-hello-world/ 
 │   ├── Main.java
 │   ├── MainAdvanced.java
 │   └── README.md
