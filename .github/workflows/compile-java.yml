@@ -1,0 +1,23 @@
+name: Compile Java
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - name: Compile all Java files
+        run: |
+          find . -name "*.java" -print > sources.txt
+          if [ -s sources.txt ]; then
+            xargs javac < sources.txt
+            echo "Compilation OK"
+          else
+            echo "No java files found"
+          fi
