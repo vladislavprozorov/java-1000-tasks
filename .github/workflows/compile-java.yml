@@ -5,19 +5,25 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        task: [001-hello-world, 002-even-or-odd] # список задач для CI, можно расширять
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 17
-      - name: Compile all Java files
+
+      - name: Compile Java files for task
         run: |
-          find . -name "*.java" -print > sources.txt
+          echo "Compiling task ${{ matrix.task }}..."
+          find ./${{ matrix.task }} -name "*.java" -print > sources.txt
           if [ -s sources.txt ]; then
             xargs javac < sources.txt
-            echo "Compilation OK"
+            echo "Compilation OK for ${{ matrix.task }}"
           else
-            echo "No java files found"
+            echo "No Java files found in ${{ matrix.task }}"
           fi

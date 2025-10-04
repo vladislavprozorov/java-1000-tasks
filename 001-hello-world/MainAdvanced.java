@@ -1,3 +1,4 @@
+package task001;
 import java.io.PrintStream;
 
 public class MainAdvanced{
