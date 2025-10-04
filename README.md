@@ -55,7 +55,7 @@ java-1000-tasks/
 
 ---
 
-## Примеры задач
+## Example Tasks
 
 - **001 – Hello World**  
   Write a program that prints Hello, World! to the console.
