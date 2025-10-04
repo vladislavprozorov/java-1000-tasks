@@ -1,4 +1,6 @@
-# 001 - Hello World
+# </> 001 - Hello World
+
+[Русская версия](README.ru.md) | [English](README.md)
 
 > **Описание задачи**  
 > Напишите программу на Java, которая выводит строку `'Hello, World!'` в консоль.  
