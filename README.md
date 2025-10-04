@@ -3,8 +3,104 @@
 [![Compile Java](https://github.com/vladislavprozorov/java-1000-tasks/actions/workflows/compile-java.yml/badge.svg)](https://github.com/vladislavprozorov/java-1000-tasks/actions/workflows/compile-java.yml)  
 [Русская версия](README.ru.md) | [English](README.md)
 
+## How to run
 
-This list is organized roughly by difficulty: 1–300 Beginner, 301–700 Intermediate, 701–1000 Advanced.
+1. Install [Java JDK 17+](https://adoptium.net/)  
+   (check installation with: `java -version` and `javac -version`).
+
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/vladislavprozorov/java-1000-tasks.git
+   cd java-1000-tasks
+3. Go to the task folder, for example:
+    ```bash
+      cd 001-hello-world
+    ```
+4. Compile and run the code:
+    ```bash
+      javac Main.java && java Main
+    ```
+    
+## Difficulty Levels
+
+1. **Beginner**  
+   Simple tasks to get familiar with syntax, variables, and input/output.
+
+2. **Intermediate**  
+   Working with methods, classes, collections, and exception handling.
+
+3. **Advanced**  
+   Object-oriented programming, streams, file operations, testing, basics of multithreading.
+
+---
+
+## Repository Structure
+
+Each task is stored in a separate folder with a unique number and a short name:
+
+```
+java-1000-tasks/
+│
+├── 001-hello-world/ 
+│   ├── Main.java
+│   ├── MainAdvanced.java
+│   └── README.md
+│
+├── 002-variables/
+│   ├── Main.java
+│   └── README.md
+│
+└── ...
+```
+
+---
+
+## Примеры задач
+
+- **001 – Hello World**  
+  Write a program that prints Hello, World! to the console.
+
+- **002 – Variables and Output**  
+  Declare variables of different types (`int`, `double`, `String`) and print them.
+
+- **003 – Conditionals**  
+  Write a program that checks if a number is even or odd.
+
+- **010 – Loops**  
+  Write a program that prints numbers from 1 to 100.
+
+- **050 – Arrays**  
+ Find the minimum and maximum values in an array of integers.
+
+- **100 – Methods**  
+ Implement a method to calculate the factorial of a number.
+
+- **200 – Classes and Objects**  
+  Create a class `Car` with fields `brand`, `year` and a method `drive()`.
+
+- **500 – File Handling**  
+  Write a program that reads lines from a file and counts the number of words.
+
+- **700 – Collections**  
+  Use `HashMap` to count word occurrences in a text.
+
+- **900 – Multithreading**  
+  Create a thread that prints numbers from 1 to 10 in parallel with another thread.
+
+- **1000 – Mini Project**  
+  Implement a console-based "Notebook" app with add, delete, and search features.
+
+---
+
+##  Goal
+
+- Improve Java programming skills.
+- Prepare for interviews (Junior → Middle → Senior).
+- Build a GitHub portfolio with a large set of solved tasks.
+
+---
+
+## This list is organized roughly by difficulty: 1–300 Beginner, 301–700 Intermediate, 701–1000 Advanced.
 
 1. Write a program that prints 'Hello, World!' to the console.
 2. Create a program that reads an integer and prints whether it's even or odd.

@@ -8,7 +8,24 @@
 Каждая задача имеет собственную папку с решением и пояснением.
 
 ---
+## Как запустить
 
+1. Установите [Java JDK 17+](https://adoptium.net/)  
+   (проверьте установку: `java -version` и `javac -version`).
+
+2. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/vladislavprozorov/java-1000-tasks.git
+   cd java-1000-tasks
+3. Перейдите в папку с задачей, например:
+    ```bash
+      cd 001-hello-world
+    ```
+4. Скомпилируйте и запустите код:
+    ```bash
+      javac Main.java && java Main
+    ```
+    
 ## Уровни сложности
 
 1. **Начальный уровень (Beginner)**  
