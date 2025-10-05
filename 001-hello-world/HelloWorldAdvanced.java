@@ -1,7 +1,6 @@
-package task001;
 import java.io.PrintStream;
 
-public class MainAdvanced{
+public class HelloWorldAdvanced{
     private static final String HELLO_WORLD = "Hello, World!";
     /**
      * Печатает сообщение в заданный поток вывода с переносом строки.

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MainAdvanced{
+public class EvenOrOddAdvanced{
     /**
      * Determines whether a number is even or odd and displays the result.
      * @param num integer to check
