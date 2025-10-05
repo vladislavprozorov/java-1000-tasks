@@ -18,7 +18,7 @@
     ```
 4. Compile and run the code:
     ```bash
-      javac Main.java && java Main
+      javac file.java && java file
     ```
     
 ## Difficulty Levels
@@ -42,12 +42,13 @@ Each task is stored in a separate folder with a unique number and a short name:
 java-1000-tasks/
 │
 ├── 001-hello-world/ 
-│   ├── Main.java
-│   ├── MainAdvanced.java
+│   ├── HelloWorld.java
+│   ├── HelloWorldAdvanced.java
 │   └── README.md
 │
-├── 002-variables/
-│   ├── Main.java
+├── 002-even-or-odd/
+│   ├── EvenOrOdd.java
+│   ├── EvenOrOddAdvanced.java
 │   └── README.md
 │
 └── ...
@@ -102,8 +103,10 @@ java-1000-tasks/
 
 ## This list is organized roughly by difficulty: 1–300 Beginner, 301–700 Intermediate, 701–1000 Advanced.
 
-1. Write a program that prints 'Hello, World!' to the console.
-2. Create a program that reads an integer and prints whether it's even or odd.
+1. [**001 – Hello World**](./001-hello-world)   
+Write a program that prints 'Hello, World!' to the console. 
+2. [**002 – Even or Odd**](./002-even-or-odd)  
+Create a program that reads an integer and prints whether it's even or odd.
 3. Implement a program that reads a number and prints its factorial (iterative).
 4. Write a program to calculate the sum of numbers from 1 to N.
 5. Implement a program that reads two numbers and prints their greatest common divisor (GCD). Add input validation and unit tests.
