@@ -34,6 +34,20 @@ public class GCD {
 }
 
 ```
+### Explanation of the Algorithm
+1) At each iteration, replace the pair of numbers (a, b) with (b, a % b).
+
+2) The remainder a % b is always strictly less than b, so the algorithm gradually decreases the second number.
+
+3) The process continues until b equals 0.
+By the property gcd(a, 0) = a, the current value of a is the greatest common divisor.
+
+4) The algorithm always terminates because the values ​​of b are strictly decreasing and remain non-negative.
+
+> The algorithm is based on the identity:
+gcd(a, b) = gcd(b, a % b).
+
+> The time complexity is O(log(min(a, b))), making the method extremely efficient.
 ### `GCDAdvanced.java` (Advanced)
 > Advanced version with user input and input validation:
 
