@@ -109,9 +109,10 @@ Write a program that prints 'Hello, World!' to the console.
 Create a program that reads an integer and prints whether it's even or odd.
 3. [**003 – Factorial Iterative**](./003-factorial-iterative)   
 Implement a program that reads a number and prints its factorial (iterative).
-4. [**004 – Sum of numbers from 1 to N**](./004-sum-to-n/)   
+4. [**004 – Sum of numbers from 1 to N**](./004-sum-to-n)   
 Write a program to calculate the sum of numbers from 1 to N.
-5. Implement a program that reads two numbers and prints their greatest common divisor (GCD). Add input validation and unit tests.
+5. [**005 – Greatest Common Divisor (GCD)**](./005-gcd-two-numbers) 
+Implement a program that reads two numbers and prints their greatest common divisor (GCD). Add input validation.
 6. Create a program that reverses a string entered by the user.
 7. Write a program that checks if a string is a palindrome. Extend it to handle multiple inputs in a loop/array.
 8. Create a program that counts vowels and consonants in a string.
